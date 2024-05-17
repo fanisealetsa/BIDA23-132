@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CADCFC;
+    margin: 0;
+    padding: 2% 2% 2% 2%;
+    padding-left: 2%;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    text-align: right;
+}
+
+nav {
+    
+    text-align: right;
+}
+
+nav a {
+    color: #CADCFC;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+nav a:hover {
+    background-color: #CADCFC;
+    color: #00246B;
+}
+
+main {
+    font-size: 24px;
+}
+
+img.logo {
+    width: 35px;
+    padding-left: 2%;
+
+}
+
+video.king,
+img.squad {
+    border: #CADCFC 3px solid;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.media-container {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.king,
+.squad {
+    width: 70%;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+h3{
+    font-size: 16px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+br{
+    color: aqua;
+}
+
+button {
+    display: inline-block;
+    padding: 8px;
+    background-color: #CADCFC;
+    color: #00246B;
+    border-radius: 10px;
+}
+
+
+
+a{
+    color: #CADCFC;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+a:hover {
+    background-color: #CADCFC;
+    color: #00246B;
+}
+
+.media-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.media-image {
+    width: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #CADCFC;
+    border-radius: 10px;
+    position: relative;
+}
+
+.media-content {
+    flex: 1;
+}
+
+img.squad{
+    width: 30%;
+}

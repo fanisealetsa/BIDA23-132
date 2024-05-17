@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Warner Bros Feedback</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="apps&games.html">Apps & Games</a>
+            <a href="tv shows.html">TV Shows</a>
+            <a href="About Us.html">About Us</a>
+            <a href="Contact-Us.html">Feedback</a>
+            <img src="Warner_Bros_logo.svg.png" class="logo">
+        </nav>
+    </header>
+
+    <main>
+        <h1>Feedback</h1>
+        <p>We'd love to hear your thoughts! Please share your feedback about our website.</p>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label name="message">Feedback:</label>
+            <textarea id="message" rows="1" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+                <p id="confirmation">Feedback sent!</p>
+            </main>
+    </main>
+    
+    <footer>TM & © 2024 Warner Bros. Entertainment Inc. All rights reserved.</footer>
+</body>
+</html>
